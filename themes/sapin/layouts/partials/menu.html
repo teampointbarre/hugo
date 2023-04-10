@@ -1,0 +1,16 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<nav>
+  <ul>
+    {{- range . }}
+    <li {{- if $page.IsMenuCurrent .Menu . }} class="active" {{- end }}>
+      <a href="{{ .URL }}">{{ or (T .Identifier) .Name | safeHTML }}</a>
+    </li>
+    {{- end }}
+  </ul>
+</nav>
+{{- end }}
+
+  

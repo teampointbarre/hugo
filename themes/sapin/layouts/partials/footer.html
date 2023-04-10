@@ -1,0 +1,8 @@
+<footer>
+  <p class="copy"><small>&copy; 2023 - {{ now.Format "2006" }} - .|</small></p>
+</footer>
+
+{{ if (isset .Params "gallery") }}
+<script type="application/javascript" src="{{ .Site.BaseURL }}js/pswp_gallery.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+{{ end }}

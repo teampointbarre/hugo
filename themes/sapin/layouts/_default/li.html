@@ -1,0 +1,9 @@
+<li class="summary-item">
+  <a href="{{ .Permalink }}" alt="{{ .Title }}">
+    <span class="item-title">{{ .Title }}</span>
+    <span class="item-date">
+      <time datetime="{{ .PublishDate }}" itemprop="datePublished">{{ .PublishDate.Format "02/01/2006" }}</time>
+    </span>
+  </a>
+</li>
+

@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  
+  <title>{{ .Site.Title }}</title>
+  
+  <link rel="shortcut icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="/css/style.css">
+
+  {{ if (isset .Params "gallery") }}
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/photoswipe.css"/>
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default-skin/default-skin.css"/>
+  <script type="application/javascript" src="{{ .Site.BaseURL }}js/photoswipe.min.js"></script>
+  <script type="application/javascript" src="{{ .Site.BaseURL }}js/photoswipe-ui-default.min.js"></script>
+  {{ end }}
+
+  <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
+</head>
+
