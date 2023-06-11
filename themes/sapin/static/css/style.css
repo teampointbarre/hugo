@@ -28,6 +28,7 @@ h2 {
     font-weight: 400;
 }
 
+
 img {
   max-width: 100%;
   display: block;
@@ -148,6 +149,12 @@ main h1, main h2 {
     margin-bottom: 0;
     font-weight: 300;
 }
+
+article h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 
 #meta {
     display: flex;
