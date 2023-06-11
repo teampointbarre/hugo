@@ -7,7 +7,6 @@ body {
   margin: 0 auto;
   max-width: 50em;
   font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
   line-height: 1.5;
   padding: 2em 1em;
   background-color: #ffffff;
@@ -79,7 +78,7 @@ header h1 {
     line-height: 1;
 }
 
-header h1 a {
+header h1 a {    
     color: #3A4145;
     text-decoration: none;
 }
@@ -98,18 +97,17 @@ nav ul {
 
 nav li {
     display: inline;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0.5rem;
 }
 
 nav li a {
-    color: #3A4145;
+    color: #9EABB3;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-nav li.active {
+nav li.active a {
     color: #005d55;
-    border-bottom: 0.2rem solid;
 }
 
 
@@ -146,10 +144,9 @@ nav li.active {
 }
 
 /* single */
-#main h1, #main h2 {
+main h1, main h2 {
     margin-bottom: 0;
-    text-decoration:underline;
-    text-decoration-color: #005d55;
+    font-weight: 300;
 }
 
 #meta {
