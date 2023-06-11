@@ -5,10 +5,6 @@ theme = 'sapin'
 
 [menu]
 [[menu.main]]
-  name = 'Accueil'
-  pageRef = '/'
-  weight = 10
-[[menu.main]]
   name = 'La méthode'
   pageRef = '/methode'
   weight = 20
@@ -22,6 +18,11 @@ theme = 'sapin'
   weight = 40
 [[menu.main]]
   name = 'Refuge'
-  url = '/'
+  url = 'https://refuge.teampointbarre.fr'
   weight = 50
+
+[params]
+    description = "Site de la team point barre"
+    dateFormatToUse = "01-01-2023"
+    replaceGoogleFonts = "fonts.loli.net"
 
