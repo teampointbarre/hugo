@@ -6,12 +6,12 @@ html, body {
 body {
   margin: 0 auto;
   max-width: 50em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 2em 1em;
   background-color: #ffffff;
-  color: #172A3A;
+  color: #3A4145;
 }
 
 a, strong, hr {
@@ -26,6 +26,7 @@ h2 {
     margin-top: 1em;
     padding-top: 1em;
     font-size: 1rem;
+    font-weight: 400;
 }
 
 img {
@@ -47,7 +48,7 @@ figure > img {
 }
 
 figure a {
-  color: black;
+  color: #3A4145;
   text-decoration: none;
   border-bottom: 0.5em solid #005d55;
   padding-bottom: 0.5em;
@@ -72,12 +73,14 @@ figcaption {
 header h1 {
     margin: 0;
     padding: 0  0 0 9px;
-    font-size: 1.5em;
+    font-size: 3rem;
+    font-weight: 300;
     text-align: center;
+    line-height: 1;
 }
 
 header h1 a {
-    font-weight: 600;
+    color: #3A4145;
     text-decoration: none;
 }
 
@@ -99,18 +102,16 @@ nav li {
 }
 
 nav li a {
-    color: #005d55;
+    color: #3A4145;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 nav li.active {
-    background-color: #005d55;
-    border-radius: 0.42rem;
+    color: #005d55;
+    border-bottom: 0.2rem solid;
 }
 
-nav li.active a {
-    color: #ffffff;
-}
 
 /* home layout */
 #writing {
