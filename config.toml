@@ -9,10 +9,6 @@ theme = 'sapin'
   pageRef = '/methode'
   weight = 20
 [[menu.main]]
-  name = 'Derrière les sapins'
-  pageRef = '/coachs'
-  weight = 30
-[[menu.main]]
   name = 'Parole aux athlètes'
   pageRef = '/recits'
   weight = 40
