@@ -6,6 +6,7 @@ draft: false
 
 # La méthode .|
 
-Cette vidéo vous mettra directement dans l'ambiance ;-)
+La méthode vous est expliquée par Stéphane Brogniart.
+Explication du jargon...
 
 {{< youtube 4_oxYI1LP-k >}}
