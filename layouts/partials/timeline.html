@@ -1,0 +1,18 @@
+<!-- Items -->
+<section class="wrapper style1 align-center">
+    <div class="content">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <div id="timeline" class=" {{ .style }}">
+          {{ range .items }}
+	  <p>
+	    <span class="icon {{ .style }}"></span>
+	    {{ .content }}
+	  </p>
+          {{ end }}
+        </div>
+	{{ with .button }}<ul class="actions stacked">
+	  <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
+	</ul>{{ end }}
+    </div>
+</section>

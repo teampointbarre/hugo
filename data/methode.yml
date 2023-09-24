@@ -1,0 +1,17 @@
+style: "style1 orient-left content-align-left onscroll-image-fade-in color6"
+id : "methode"
+title : "La méthode .|"
+content: |
+  <strong>Qu'est-ce que la méthode point barre ?</strong> Stéphane Brogniart vous l'explique dans cette vidéo. Vous y trouverez le jargon auquel vous serez confronté : véhicule, pilote, entreprise, ouvriers, chef d'entreprise, budget, etc. ainsi que des notions clés telles que la partition ou encore la fameuse cause noble.
+  <br>Votre point de départ est ce que vous avez envie d'exprimer au plus profond de vous, aujourd'hui. De là vous avez choisi l'outil, tel que le trail, qui permettra d'assouvir votre cause noble à travers un événement remarqué, remarquable.
+  <br>Pour faire votre chemin une périodisation de l'entraînement sera mise en place. Un hiver rigoureux avec de la PPG (préparation physique générale) afin de renforcer le corps (et l'esprit) suivi d'une période dédiée à la PPS (préparation physique spéciphique) qui te permettra de savoir où tu en es.
+  <br>Prépare ta corde à sauter et bon visionnage ;-)
+
+
+button: 
+  label: "Connaître la petite histoire de la team"
+  link: "#timeline"
+
+video:
+  code: "4_oxYI1LP-k"
+  title: "La méthode point barre présentée par Stéphane Brogniart"

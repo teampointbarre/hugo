@@ -1,24 +1,33 @@
 baseURL = 'https://teampointbarre.github.io'
 languageCode = 'fr-fr'
-title = '🌲 Team Point Barre'
-theme = 'sapin'
+title = 'Team Point Barre'
+theme = 'hugo-story'
+copyright = "{year}"
 
 [menu]
 [[menu.main]]
   name = 'La méthode'
-  pageRef = '/methode'
+  url = '/#methode'
   weight = 20
 [[menu.main]]
   name = 'Parole aux athlètes'
-  pageRef = '/recits'
+  url = '/#recits'
   weight = 40
 [[menu.main]]
   name = 'Refuge'
-  url = 'https://refuge.teampointbarre.fr'
+  pageRef = 'https://refuge.teampointbarre.fr'
   weight = 50
 
 [params]
     description = "Site de la team point barre"
     dateFormatToUse = "01-01-2023"
     replaceGoogleFonts = "fonts.loli.net"
+    favicon = true
 
+[Params.social]
+  email = "contact@teampointbarre.fr"
+  instagram = "https://instagram.com/teampointbarre"
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]
