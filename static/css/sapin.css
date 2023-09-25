@@ -8,6 +8,11 @@
     color: rgb(208, 208, 208);
 }
 
+.banner.style3 .image img {
+    background-color: #fff;
+    border-radius: 0;
+}
+
 /* header */
 #header {
     position: fixed;

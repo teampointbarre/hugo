@@ -36,7 +36,7 @@ items:
     content : "Stéphane cherche aussi à faire progresser ce collectif en laissant libre de proposer aux membres des initiatives ou des compétences pour embellir davantage la team."
     style : "style2 major fa-tree left color5"
     
-button:
-  label : "Parole aux athlètes"
-  link : "#recit"
+#button:
+#  label : "Parole aux athlètes"
+#  link : "#recit"
     
