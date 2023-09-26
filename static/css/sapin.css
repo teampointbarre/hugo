@@ -13,6 +13,10 @@
     border-radius: 0;
 }
 
+.spotlight.style1 {
+    padding: 8em 0 6em 0;
+}
+
 /* header */
 #header {
     position: fixed;
@@ -25,6 +29,7 @@
     line-height: 3em;
     box-shadow: 0 0 0.15em 0 rgba(32, 48, 76, 0.1);
     color: rgb(208, 208, 208);
+    margin-bottom: 1em;
 }
 
 #header h1 {
@@ -69,6 +74,8 @@
     line-height: 3em;
     padding: 0 0.5em 0 0.5em;
     outline: 0;
+    font-weight: bold;
+
 }
 
 @media screen and (max-width: 736px) {
@@ -100,10 +107,9 @@
 
 /* timeline */
 #timeline {
-  min-width: 300px;
-  max-width: 500px;
-  margin: auto;
+
 }
+
 
 #timeline p {
   font-size: 1em;

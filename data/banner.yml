@@ -9,4 +9,6 @@ button:
   label : "En savoir plus sur la méthode"
   link : "#methode"
 
-image : "images/logo.png"
+image :
+  src: "images/logo.png"
+  allt: "logo de la team point barre"

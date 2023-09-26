@@ -4,7 +4,7 @@
     <div class="masonry">
       {{ with .Site.GetPage "/recits" }}
       {{ range .Data.Pages }}
-      <div class="brick">
+      <article class="brick">
 	{{ if and (isset .Params "image") .Params.image }}
 	<a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
 	  <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
@@ -20,9 +20,12 @@
               {{ .Summary }}
               {{ end }}
             </p>
+	    <div class="actions fixed">
+              <span class="button small">...</span>
+	    </div>
 	  </div>
 	</div>
-      </div>
+      </article>
       {{ end }}
       {{ end }}
     </div>

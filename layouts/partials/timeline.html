@@ -1,9 +1,9 @@
 <!-- Items -->
-<section class="wrapper style1 align-center">
+<section class="spotlight style1" id="timeline">
     <div class="content">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <div id="timeline" class=" {{ .style }}">
+        <div class=" {{ .style }}">
           {{ range .items }}
 	  <p>
 	    <span class="icon {{ .style }}"></span>
