@@ -15,11 +15,7 @@
 
 
 
-@media screen and (max-width: 736px) and (orientation: portrait) {
-    .spotlight.style1 {
-	padding-top: 34em;
-    }
-}
+
 
 /* header */
 #header {
