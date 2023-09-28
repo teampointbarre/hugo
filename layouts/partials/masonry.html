@@ -11,7 +11,7 @@
 	</a>
 	{{ end }}
 	<div class="box-masonry-text">
-	  <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+	  <h3>{{ .Title }}</h3>
 	  <div class="box-masonry-description">
             <p>
               {{ if .Description }}
@@ -21,8 +21,8 @@
               {{ end }}
             </p>
 	    <div class="actions fixed">
-              <span class="button small">...</span>
-	    </div>
+	      <a class="button small" href="{{ .Permalink }}" alt="continuer le récit">continuer le récit</a>
+	  </div>
 	  </div>
 	</div>
       </article>
