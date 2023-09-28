@@ -1,5 +1,5 @@
 ####################### Banner #########################
-style: "style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "🌲 Team Point Barre"
 subtitle: |
   Coaching sportif trail, bikepacking, triathlon selon la méthode Stéphane Brogniart
@@ -10,5 +10,5 @@ button:
   link : "#methode"
 
 image :
-  src: "images/logo.png"
+  src: "images/H_02_S.jpg"
   allt: "logo de la team point barre"

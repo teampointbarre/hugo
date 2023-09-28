@@ -1,9 +1,8 @@
 style: "style5 orient-center halfscreen content-align-left onscroll-image-fade-in"
 id : "inscription"
 
-
 button: 
   label: "Rejoindre la team"
   link: "https://docs.google.com/forms/d/e/1FAIpQLSc2YrVFK6XExGr0JUpWp3N02ZLj5yABxZw6445u5hinI7bjAw/viewform"
 
-image: "images/groupe.jpeg"
+image: "images/H_07_S.jpg"

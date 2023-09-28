@@ -15,7 +15,7 @@ copyright = "{year}"
   weight = 40
 [[menu.main]]
   name = 'Refuge'
-  pageRef = 'https://refuge.teampointbarre.fr'
+  url = 'https://refuge.teampointbarre.fr'
   weight = 50
 
 [params]
