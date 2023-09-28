@@ -1,14 +1,19 @@
 <!-- Footer -->
 <footer class="wrapper style1 align-center">
-    <div class="inner">
-        <ul class="icons">
-          {{ with .Site.Params.social.instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>{{end}}
-          {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
-        </ul>
-        <p>
-	  Team Point Barre &copy; 2023 propulsé avec <span class="footerspacer icon fa-heart"></span> par Hugo, thème Hugo Story
-	</p>
+  <div class="inner">
+    <div class="image fit">
+      <img src="/images/logo.png" alt="logo de la team point barre" />
     </div>
+  </div>
+  <div class="inner">
+    <ul class="icons">
+      {{ with .Site.Params.social.instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>{{end}}
+      {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
+    </ul>
+    <p>
+      Team Point Barre &copy; 2023 propulsé avec <span class="footerspacer icon fa-heart"></span> par Hugo, thème Hugo Story
+    </p>
+  </div>
 </footer>
 
 <!-- FontAwesome JS -->
