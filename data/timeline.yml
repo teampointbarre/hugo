@@ -12,12 +12,12 @@ items:
     
   # feature item loop
   - name : "Three"
-    content : "Dès la première année, la rencontre entre les athlètes de la team est un élément important. Dans un premier temps sous forme de stage (dénivelé, traversée des Vosges, débutant, fille), puis à travers des événements off (30 kms vol d’oiseau, 6hd+, etc)."
+    content : "Dès la première année, la rencontre entre les athlètes de la team est un élément important. Dans un premier temps sous forme de stage (Dénivelé, Traversée des Vosges, Débutants, Filles), puis à travers des événements off (30 kms vol d’oiseau, 6hd+, etc)."
     style : "solid style2 major fa-tree left"
     
   # feature item loop
   - name : "Four"
-    content : "En 2023 les rencontres se font à travers la reconnaissance de beaux tracés dans l’hexagone sur plusieurs jours. Lles prochaines années auront aussi leur originalité!"
+    content : "En 2023 les rencontres se font à travers la reconnaissance de beaux tracés dans l’hexagone sur plusieurs jours. Les prochaines années auront aussi leur originalité!"
     style : "style2 major fa-tree right"
     
   # feature item loop
@@ -27,7 +27,7 @@ items:
     
   # feature item loop
   - name : "Six"
-    content : "Team point barre un jour, team point barre toujours, car même les personnes qui ont quitté garde des liens.
+    content : "Team point barre un jour, team point barre toujours, car même les personnes qui l'ont quitté garde des liens.
     Au delà de l’accompagnement c’est aussi du développement personnel, et du meilleur grâce aux rencontres avec les autres."
     style : "solid style2 major fa-tree right"
     
