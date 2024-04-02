@@ -13,10 +13,6 @@ copyright = "{year}"
   name = 'Parole aux athlètes'
   url = '/#recits'
   weight = 40
-[[menu.main]]
-  name = 'Refuge'
-  url = 'https://refuge.teampointbarre.fr'
-  weight = 50
 
 [params]
     description = "Site de la team point barre"
@@ -25,7 +21,6 @@ copyright = "{year}"
     favicon = true
 
 [Params.social]
-  email = "contact@teampointbarre.fr"
   instagram = "https://instagram.com/teampointbarre"
 
 [Params.asset]
